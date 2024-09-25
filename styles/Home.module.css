@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.headerContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.headerLogotipeContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.headerNavigationContainer{
+    display: flex;
+    align-items: center;
+}
+.headerUl{
+    display: flex;
+}
+.headerli{
+    list-style: none;
+    margin-right: 24px;
+}
+.headerli:last-of-type{
+    margin-right: 0px;
+}
+.headerLink {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    color: #545454;
+    font-weight: 500;
+}
+
+.headerButtonContainer{
+    margin-left: 32px;
+}
+.headerButton{
+    border: 3px solid #958060;
+    padding: 8px 24px;
+    border-radius: 20px;
+     font-size: 22px;
+    color: #958060;
+    font-size: bold;
+    cursor: pointer;
+}
+
+
+/* ---------------heroContainer---------- */
+.heroContainerContent{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.heroContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.heroContentContainer{
+    max-width: 608px;
+}
+.heroContantTitle{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #545454;
+    margin-bottom: 16px;
+    font-size: 90px;
+}
+.heroContantSubTitle{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #686868;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.heroContantButton{
+    background-color: #958060;
+    padding: 10px 64px;
+    border-radius: 20px;
+    border: none;
+    color: #F7F7F7;
+    font-size: 24px;
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.heroContantButton:hover{
+    background-color: #604B2B;
+}
+.heroContantButton:focus{
+    background-color: #C8B18D;
+}
+.heroContainerIcon{
+}
+/* ----------------advatagesBGContentContainer------- */
+.advatagesBGContentContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.advatagesBGContent{
+    display: flex;
+    justify-content: space-around;
+    opacity: 40%;
+    position: absolute;
+}
+.heroContantSubTitle{
+}
+/* ---advatagesContantContainer--- */
+.advatagesContantContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.advatagesContanElementContainer{
+    margin-top: 64px;
+    display: flex;
+    margin-bottom: 200px;
+}
+.advatagesContantElement{
+    margin-right: 32px;
+    text-align: center;
+}
+.advatagesContantElement:last-of-type{
+    margin-right: 0px;
+}
+.advatagesElementIcon{
+    margin-bottom: 16px;
+    width: 160px;
+}
+.advatagesElementTitle{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #545454;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.advatagesElementSubTitle{
+    color: #686868;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+}
+/* ------------about container---------- */
+.aboutUsContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.aboutContenSubContainert{
+  margin-left: 107px;
+}
+.aboutUsContainerTitle{
+    display:  flex;
+    justify-content: center;
+}
+.aboutTitle{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 54px;
+    color: #545454;
+    border-bottom: 7px solid #958060;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.aboutTitle::before,
+.aboutTitle::after {
+    content: '•'; 
+    font-size: 40px;
+    color: #958060;
+    margin: 0 20px;
+}
+
+.aboutContenContainert{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.aboutConten{
+    margin-right: 32px;
+    max-width: 100%;
+}
+.acoutContent{
+    font-family: "Montserrat", sans-serif;;
+    width: 608px;
+    color: #686868;
+    font-size: 22px;
+    line-height: 1.25;
+}
+.acoutContent2{
+    /* margin: 0px 30px 0px 107px; */
+}
+.acoutContentSPAN{
+    color: #958060;
+    font-weight: bold;
+}
+
+/* ---------joinUsContantContainer---------- */
+.joinUsContantContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.joinUsContant{
+    margin: 205px 0;
+}
+.joinUsContantTitle,
+.joinUsContantSubTitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.joinUsContantTitle{
+    font-size: 45px;
+    color: #958060;
+    font-weight: bold;
+    padding: 0 220px;
+    margin-bottom: 16px;
+}
+.joinUsContantSubTitle{
+    color: #686868;
+    font-size: 22px;
+    line-height: 32px;
+    padding: 0 220px;
+    margin-bottom: 32px;
+}
+.joinUsContantInputContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    padding: 0 90px;
+}
+.joinUsContantInputContent{
+    border-bottom: 4px solid #958060;
+}
+.joinUsContantInput{
+    border: none;
+    width: 501px;
+}
+.joinUsContantButtonContainer{
+    display: flex;
+    justify-content: center;
+}
+.joinUsContantButton{
+    color: white;
+    background-color: #958060;
+    padding: 8px 108px;
+    border-radius: 20px;
+    border: none;
+    font-size: 24px;
+    line-height: 1.25;
+}
+/* ---------questionsContantContainer--------- */
+.questionsContantContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.questionsContant{
+    margin: 64px 0;
+
+}
+.questionsContantQuestionContainer{
+    padding-right: 150px;
+}
+.questionsContantQuestionElement{
+    margin-bottom: 32px;
+}
+.questionsContantQuestionElement:last-of-type{
+    margin-bottom: 0;
+}
+.questionsContantQuestionElementTitle{
+    font-size: 27px;
+    line-height: 32px;
+    margin-left: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #545454;
+}
+.questionsContantQuestionElementSubTitle{
+    font-size: 22px;
+    line-height: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #686868;
+}
+
+/* ----------footerContantContainer------- */
+.footerContantContainer{
+    background-color: #545454;
+    color: white;
+}
+.footerContant{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footerContantElementContainer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    padding: 64px 0 32px 0;
+}
+
+.footerContantElementTitle{
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+.footerContantElementLinkBlock{
+    margin-bottom: 16px;
+    line-height: 32px;
+    font-family: "Montserrat", sans-serif;;
+}
+.footerContantElementLink{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.footerContantElementMedia{
+    display: flex;
+}
+.footerContantElementLinkBlockMedia{
+    margin-right: 13px;
+    align-items: center;
+}
+.footerContantElementLinkMedia{
+    width: 29px;
+    height: 29px;
+}
+.footerContantElementCreativeContainer{
+    justify-content: center;
+    display: flex;
+    padding: 16px 0 45px 0;
+}
